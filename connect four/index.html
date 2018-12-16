@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title></title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <link href="style.css" rel="stylesheet">
+        
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-default navbar-inverse navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <p>CONNECT FOUR</p>
+                </div>
+                <ul class= "nav navbar-nav navbar-right">
+                    <li><a href="rules.html">How to Play</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container" align ="center">
+            <div class="jumbotron">
+                <h1>Welcome to Connect Four!</h1>
+                <h2 style="display: none" class="over">Game Over!</h2><br><br>
+                <button type="button" class="btn btn-success btn-block reload" style="display: none" >Play Again!</button>
+            </div>
+            
+            <h3>The objective of this game is to connect four of your chips in a row.</h3>
+            <h4>Let's get Started!</h4>
+            <form class="form-inline">
+                <p>Enter your names:</p>
+                <div class="form-group">
+                    <input type="text" class="form-control player1" placeholder="Player 1" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control player2" placeholder="Player 2" required>
+                    <button type="button" value="play" class="btn btn-primary btn-sm start">Play</button>
+                </div>
+            </form>
+            <table  class="board">
+                <tr>
+                    <td><button class="circle 1 top"></button></td>
+                    <td><button class="circle 2 top"></button></td>
+                    <td><button class="circle 3 top"></button></td>
+                    <td><button class="circle 4 top"></button></td>
+                    <td><button class="circle 5 top"></button></td>
+                    <td><button class="circle 6 top"></button></td>
+                    <td><button class="circle 7 top"></button></td>
+                    <td><button class="circle 8 top"></button></td>
+                </tr>
+                <tr>
+                    <td><button class="circle 1 "></button></td>
+                    <td><button class="circle 2 "></button></td>
+                    <td><button class="circle 3 "></button></td>
+                    <td><button class="circle 4 "></button></td>
+                    <td><button class="circle 5 "></button></td>
+                    <td><button class="circle 6 "></button></td>
+                    <td><button class="circle 7 "></button></td>
+                    <td><button class="circle 8 "></button></td>
+                </tr>
+                <tr>
+                    <td><button class="circle 1 "></button></td>
+                    <td><button class="circle 2 "></button></td>
+                    <td><button class="circle 3 "></button></td>
+                    <td><button class="circle 4 "></button></td>
+                    <td><button class="circle 5 "></button></td>
+                    <td><button class="circle 6 "></button></td>
+                    <td><button class="circle 7 "></button></td>
+                    <td><button class="circle 8 "></button></td>
+                </tr>
+                <tr>
+                    <td><button class="circle 1 "></button></td>
+                    <td><button class="circle 2 "></button></td>
+                    <td><button class="circle 3 "></button></td>
+                    <td><button class="circle 4 "></button></td>
+                    <td><button class="circle 5 "></button></td>
+                    <td><button class="circle 6 "></button></td>
+                    <td><button class="circle 7 "></button></td>
+                    <td><button class="circle 8 "></button></td>
+                </tr>
+                <tr>
+                    <td><button class="circle 1 "></button></td>
+                    <td><button class="circle 2 "></button></td>
+                    <td><button class="circle 3 "></button></td>
+                    <td><button class="circle 4 "></button></td>
+                    <td><button class="circle 5 "></button></td>
+                    <td><button class="circle 6 "></button></td>
+                    <td><button class="circle 7 "></button></td>
+                    <td><button class="circle 8 "></button></td>
+                </tr>
+                <tr>
+                    <td><button class="circle 1 "></button></td>
+                    <td><button class="circle 2 "></button></td>
+                    <td><button class="circle 3 "></button></td>
+                    <td><button class="circle 4 "></button></td>
+                    <td><button class="circle 5 "></button></td>
+                    <td><button class="circle 6 "></button></td>
+                    <td><button class="circle 7 "></button></td>
+                    <td><button class="circle 8 "></button></td>
+                </tr>
+            </table>
+        </div>
+        
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="alt.js"></script>
+    
+    </body>
+</html>
