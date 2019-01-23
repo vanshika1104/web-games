@@ -91,6 +91,7 @@ function draw()
 
 // for movement of bird on pressing key
 document.addEventListener("keydown",moveUp);
+c.addEventListener("click",moveUp);
 function moveUp()
 {   if (check)
     {
