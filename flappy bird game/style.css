@@ -11,3 +11,10 @@ button
     font-family:sans-serif;
     font-style: italic;
 }
+#bird-up{
+    position: absolute;
+    width: 288px;
+    height: 512px;
+    background: transparent;
+    
+}
