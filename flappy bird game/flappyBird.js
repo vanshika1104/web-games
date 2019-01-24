@@ -92,7 +92,7 @@ function draw()
     requestAnimationFrame(draw);
 }
 console.log(but);
-but.style.left = butX+"px";
+//but.style.left = butX+"px";
 // for movement of bird on pressing key
 document.addEventListener("keydown",moveUp);
 
