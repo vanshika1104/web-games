@@ -1,7 +1,10 @@
 //loading canvas and its data
 var c = document.getElementById("canvas");
 var cdata = c.getContext("2d");
-
+var but = document.getElementById("bird-up")
+var rect = c.getBoundingClientRect();
+var butX = rect.left;
+var butY= rect.top;
 //loading images
 var bird = new Image();
 var bg = new Image(288, 512);
@@ -88,10 +91,11 @@ function draw()
     cdata.fillText("Score : "+score,10,20);
     requestAnimationFrame(draw);
 }
-
+console.log(but);
+but.style.left = butX+"px";
 // for movement of bird on pressing key
 document.addEventListener("keydown",moveUp);
-c.addEventListener("click",moveUp);
+
 function moveUp()
 {   if (check)
     {
@@ -102,4 +106,5 @@ function moveUp()
 
 //calling function
 draw();
+
 
